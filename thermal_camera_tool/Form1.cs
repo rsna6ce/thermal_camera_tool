@@ -221,5 +221,10 @@ namespace thermal_camera_tool
             pictureBox1.Image = img;
             fs.Close();
         }
+
+        private void closeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
